@@ -35,7 +35,7 @@ defmodule AdsbNervesRpi3.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "fatty-arbuckle/#{@app}"}
+        {:github_releases, "fatty-arbuckle/adsb-nerves-rpi3"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
@@ -67,7 +67,7 @@ defmodule AdsbNervesRpi3.MixProject do
       maintainers: ["Frank Hunleth", "Justin Schneck"],
       files: package_files(),
       licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/fatty-arbuckle/#{@app}"}
+      links: %{"GitHub" => "https://github.com/fatty-arbuckle/adsb-nerves-rpi3"}
     ]
   end
 
